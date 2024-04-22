@@ -2,14 +2,38 @@
 
 This Python script acts as a simple interpreter for a custom scripting language, designed to manipulate strings and numbers using a stack-based approach. The script reads instructions from a text file and executes a series of commands based on those instructions.
 Features
+# The following is in a single text file so any edits to the instructions are here. 
 
-    REVERSE: Reverses the last string on the stack.
-    REPEAT: Repeats the last string a specified number of times.
-    MULTIPLY: Multiplies the last two numbers on the stack.
-    PRINT: Prints a specified message.
-    SPEAK: Concatenates and prints all strings on the stack until an empty string marker is encountered.
-    ACCEPT: Prompts the user for input and pushes the input onto the stack.
-    BREAK: Terminates the program.
+# In this case you can make edits to what you want to be printed to screen etc... 
+
+
+    PRINT Hello, this is a test.
+ACCEPT
+PRINT You entered:
+SPEAK
+PRINT Now enter something to reverse:
+ACCEPT
+PRINT Reversing input...
+REVERSE
+PRINT Reversed input:
+SPEAK
+
+PRINT Enter two single-digit numbers to multiply:
+ACCEPT
+ACCEPT
+MULTIPLY
+PRINT The multiplication result is:
+SPEAK
+
+PRINT Enter a character(s) to repeat:
+ACCEPT
+PRINT Enter the number of times to repeat the character:
+ACCEPT
+REPEAT
+PRINT Repeated character:
+SPEAK
+
+BREAK
 
 # Requirements
 
