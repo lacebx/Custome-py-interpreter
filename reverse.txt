@@ -1,0 +1,27 @@
+PRINT Hello, this is a test.
+ACCEPT
+PRINT You entered:
+SPEAK
+PRINT Now enter something to reverse:
+ACCEPT
+PRINT Reversing input...
+REVERSE
+PRINT Reversed input:
+SPEAK
+
+PRINT Enter two single-digit numbers to multiply:
+ACCEPT
+ACCEPT
+MULTIPLY
+PRINT The multiplication result is:
+SPEAK
+
+PRINT Enter a character(s) to repeat:
+ACCEPT
+PRINT Enter the number of times to repeat the character:
+ACCEPT
+REPEAT
+PRINT Repeated character:
+SPEAK
+
+BREAK
